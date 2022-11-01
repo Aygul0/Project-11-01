@@ -1,0 +1,1051 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    margin-top: 50px;
+
+}
+body{
+    background: #F5F5F5;
+}
+.section__large{
+    width: 73%;
+    display: flex;
+flex-direction: column;
+}
+.section{
+    width: 100%;
+    height: 530px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    display: flex;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+header{
+ width: 100%;
+height: 129px;
+padding: 0 100px;
+background-color: white;
+}
+.header-content{
+    width: 95%;
+    height: 100%;
+background: #C4C4C4;
+}
+.monitor-slider{
+    width:  45%;
+}
+.monitor--section{
+width: 100%;
+height: 400px;
+background: #FFFFFF;
+border: 1px solid #EDEDED;
+border-radius: 4px;
+}
+.img__new{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.img__manitor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 50px;
+}
+.img__manitor img{
+    width: 70%;
+    height: 240px;
+}
+
+.extra-monitors{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.extra-monitors div{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.monitor-box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.text--section{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text__header{
+    width: 90%;
+    height: 130px;
+    border-bottom: 1px solid #EDEDED;
+}
+.text__header .text_top{
+ width: 430px;
+height: 67px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 132.69%;
+color: #2D2D2D;
+
+}
+.text__header .text_bottom P{
+width: 105px;
+height: 16px;
+font-family: 'Roboto';
+font-size: 14px;
+color:#3f3a3a;
+
+}
+.text_bottom{
+    width:100% ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_bottom div img{
+    padding-left:20px; 
+}
+.colorful_radio form label{
+ width: 35px;
+height: 16px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+color: #2D2D2D;
+
+}
+ .colorful_radio {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .colorful_radio form .input{
+    padding-top: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .black_input input[type=radio]  {
+    accent-color:black;}
+.red_input input[type=radio]  {
+    accent-color:red;} 
+.yellow_input input[type=radio]  {
+    accent-color:yellow;
+    
+}
+
+.text__middle{
+    width: 90%;
+    height: 130px;
+    border-bottom:1px solid #EDEDED;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+.gb-button{
+  width: 200px;
+}
+.gb-button span{
+  display: block;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+}
+.gb-button button{
+width: 80px;
+height: 30px;
+background: rgb(250,250,250);
+}
+.gb_buttons{
+  display: flex;  
+  margin-top: 5px; 
+}
+.gb_buttons button{
+  background: none;
+border: none;
+transition-duration: 0.5s;
+}
+.gb_buttons :nth-child(1){
+  border: 1px solid rgb(230,230,230);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.gb_buttons button:hover{
+  border-color: orangered;
+}
+.gb_buttons :nth-child(2){
+  border: 1px solid rgb(230,230,230);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+.text__last{
+    width: 90%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.text__last tr{
+    height: 35px !important;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+.gray-tr{
+    background: none !important;
+    border: none !important;
+}
+
+
+
+
+    /* Table olan bolme baslayir */
+    .section2{
+        width:100%;
+        height: 500px;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+       margin-top: 20px;
+       
+    }
+    .table--section{
+        padding:0 23px;
+        width: 96%;
+        
+    }
+    .section2 p{
+        width: 156px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 132.69%;
+    padding: 10px;
+    
+    
+    }
+    .features{
+        width: 100%;
+        height: 0px;
+        border: 1px solid #F2F2F2;  
+        margin-top: 15px;
+    }
+     table{
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+    }
+      table tr:nth-child(even){background-color:#F6F6F6;
+    border: 1px solid #F6F6F6;
+    
+    } 
+    
+     tr{
+        width: 840px;
+        height: 43px;
+    }
+    
+    .section2 .text{width: 736px;
+        height: 92px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 166.69%;
+        color: #2D2D2D;
+    }
+    
+        
+    .section2 .text   a{width: 70px;
+            height: 27px;
+         font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166.69%;
+            color: #0040A0;
+        }
+    
+        table tr td{
+border: none;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 16px;
+color: #000000;
+        }
+    /* Table olan bolme bitir */
+
+
+/* Mehsulun deyerlendirilmesi bolmesi baslayir */
+.product--evaluation{
+width: 100%;
+height: 830px;
+background: #FFFFFF;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.product-evaluation-into{
+    width: 96%;
+    height:790px;
+}
+
+
+
+.evaluation__title span:nth-child(1){
+width: 345px;
+height: 35px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #2D2D2D;
+}
+.evaluation__title{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F2F2;
+}
+.feedback__box{
+width: 100%;
+height: 110px;
+border-bottom: 1px solid #F2F2F2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.feedbox_top{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 12px;
+
+
+}
+.feedbox_top div:nth-child(1) span{
+width: 95px;
+height: 27px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #000000;
+
+
+}
+.feedbox_bottom{
+width: 775px;
+height: 47px;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 14px;
+line-height: 170%;
+color: #2D2D2D;
+}
+.extra_feedback{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.extra_feedback span{
+width: 140px;
+height: 24px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+color: #202020;
+padding-right: 16px;
+}
+.comment--zone span{
+width: 108px;
+height: 35px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 24px;
+color: #2D2D2D;
+
+
+}
+.first__input input{
+display: flex;
+flex-direction: column; 
+width: 389px;
+height: 43px;
+background: #FFFFFF;
+border: 1px solid #CDCDCD;
+border-radius: 4px;
+outline: none;
+}
+.first__input{
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first__input input::placeholder{
+width: 52px;
+ height: 19px;
+ font-family: 'Roboto';
+font-weight: 300;
+ font-size: 16px;
+ color: #ADADAD;
+ text-indent: 10px;
+     
+}
+
+.input-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+textarea{
+background: #FFFFFF;
+border: 1px solid #CDCDCD;
+border-radius: 4px;
+}
+textarea::placeholder{
+width: 65px;
+height: 19px;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 16px;
+color: #ADADAD;
+text-indent: 10px;
+padding-top: 10px;
+}
+.send button{
+width: 169px;
+height: 41px;
+background: #F58634;
+border-radius: 4px;
+border: none;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #F6F6F6;
+}
+.send--star{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+
+
+/* Mehsulun deyerlendirilmesi bolmesi bitir */
+
+
+.fixed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+.fixed-top{
+    width: 100%;
+    
+}
+.fixed-bottom{
+    width: 100%;
+    
+}
+
+
+/* Sag terefdeki qiymet sebete at bolmesi baslayir */
+    
+.main{
+  width: 280px;
+height: 243px;
+background: #393939;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 0 20px;
+}
+
+.value{
+  width: 55px;
+height: 19px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+
+.price{
+  width: 154px;
+height: 30px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+del{
+  width: 94px;
+height: 19px;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+
+.orangebox{
+  width: 240px;
+height: 45px;
+background: #F58634;
+border-radius: 4px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whitebox{
+  width: 240px;
+height: 45px;
+background: #FFFFFF;
+border-radius: 4px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #F58634;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part2{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+      /* Sag terefdeki qiymet sebete at bolmesi bitir */
+
+
+
+
+
+/* Sag terefdeki qiymet sebete at bolmesi bitir */
+.quick--order{
+ width: 280px;
+height: 153px;
+background: #FFFFFF;
+border-radius: 4px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ margin-bottom: 23px;
+ 
+}
+.quick-order-into{
+    width: 240px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.quick-order-into div p{
+width: 95px;
+height: 19px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #2D2D2D;
+    
+}
+.quick-order-into div:nth-child(1){
+    width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.quick-order-into div:nth-child(2) input{
+border: none;
+outline: none;
+width: 115px;
+height: 21px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+
+}
+.quick-order-into div:nth-child(2) .span1{
+width: 41px;
+height: 21px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #464646;
+
+}
+.quick-order-into div:nth-child(3) button{
+width: 240px;
+height: 43px;
+background: #F6F6F6;
+border-radius: 4px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #2D2D2D;
+
+
+}
+.quick-order-into div:nth-child(2) .span2{
+padding-left: 4px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+color: #464646;
+position: absolute;
+} 
+.quick-order-into div:nth-child(2) input::placeholder{
+  position: relative;
+}
+
+
+
+/*  Suretli sifaris bolmesi baslayir*/
+.credit--card{
+width: 280px;
+height: 241px;
+background: #FFFFFF;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.credit-card-into{
+    width: 240px;
+    height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.credit-card-into div:nth-child(1){
+width: 149px;
+height: 19px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #2D2D2D;
+
+}
+
+.credit-card-into div:nth-child(2){
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 218px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 4px;
+padding: 0 10px;
+}
+.credit-card-into div:nth-child(2) div{
+  display: flex;
+  align-items: center;
+  
+}
+.credit-card-into div:nth-child(2) div span{
+  padding-left: 10px;
+}
+
+
+
+.circle-div{
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-23px);
+}
+.white-recten{
+  position: relative;
+}
+.orange-recten{
+  position: absolute;
+  left: 932px;
+  top: 717px;
+}
+.circle-month{
+  transform: translateY(-17px) translateX(4px);
+}
+.circle-month :nth-child(1){
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+color: #2D2D2D;
+
+}
+.circle-month :nth-child(2){
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+color: #2D2D2D;
+
+}
+.circle-month :nth-child(3){
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #2D2D2D;
+
+}
+.circle-month :nth-child(4){
+width: 34px;
+height: 16px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+color: #F58634;
+
+}
+.circle-month :nth-child(5){
+  font-family: 'Roboto';
+font-weight: 300;
+font-size: 14px;
+color: #D0D0D0;
+}
+.circle-month :nth-child(6){
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+  color: #D0D0D0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.credit-card-into div:nth-child(4) button{
+width: 115px;
+height: 40px;
+background: #F6F6F6;
+border-radius: 4px;
+border: none;
+outline: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: rgba(45, 45, 45, 0.7);
+
+}
+.credit-card-into div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/*  Suretli sifaris bolmesi bitir */
+/* ------------------- lg-monitors ----------------- */
+.other-products{
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 50px 0;
+    font-size: 20px;
+}
+.lg-grafic{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+  .contain {
+    width: 32%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  .lg-text p {
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .lg-monitor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .lg-image {
+    width: 199px;
+    height: 200px;
+    background: url("./image/samsung-43-led-smart-tv-4k-uhd-ue43tu7540uxru_1-1\ 30.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  svg {
+    color: red;
+  }
+  .lg-price {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .lg-price del {
+    margin-left: 10px;
+  }
+  .lg-price :nth-child(2){
+    color: #ff0000;
+  }
+  .lg-price .azn {
+    width: 19px;
+    height: 13px;
+    color: #ff0000;
+  }
+  
+  .lg-price del {
+    width: 81px;
+    height: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2d2d2d;
+  }
+  .lg-credit {
+    width: 80%;
+    height: 30px;
+    background: #fdeee2;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .lg-credit span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  .prcent {
+    width: 24px;
+    height: 21px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ff0000;
+    text-shadow: 0.5px 0px 0px #470000;
+    padding-right: 10px;
+  }
+  .month {
+    width: 82px;
+    height: 23px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+  }
+  .lg-border {
+    width: 100%;
+    height: 0px;
+    border: 0.1px solid #f2f2f2;
+    margin-top: 20px;
+  }
+  .lg-greenzone {
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #009e36;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .lg-greenzone h5 {
+    margin-left: 10px;
+    font-family: "Arial";
+  }
+  /* footer hisse baslayir */
+footer{
+    width: 100%;
+    height: 550px;
+    background: #FFFFFF;;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+   padding-top: 60px;
+   margin-top: 70px;
+}
+.footer-end{
+width: 100%;
+height: 50px;
+position: absolute;
+bottom: 0;
+left: 0;
+border: none;
+border-top: 1px solid  #EFEFEF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+color: #2D2D2D;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.footer-end img{
+  padding-right: 10px;
+}
+footer h3{
+width: 108px;
+height: 21px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+.footer-contact span{
+width: 129px;
+height: 20px;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 12px;
+color: #000000;
+
+}
+.footer-contact li{
+  display:flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.footer-contact div{
+  width: 40px;
+  height: 40px;
+  background: #EFEFEF;
+  margin: 0 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contact li:nth-child(4){
+  display: flex !important ; 
+  flex-direction: row !important ;
+  
+}
+.categories li {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+color: #000000;
+padding-top: 10px;
+
+}
+.categories ul{
+  padding-top: 20px;
+}
